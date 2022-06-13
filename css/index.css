@@ -1,0 +1,56 @@
+body{
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+.container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    border:solid 1px rgb(207, 203, 203);
+    border-top: 0px;
+    border-radius: 5px;
+
+
+}
+.contenedor-campos{
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 10px;
+
+}
+input, label{
+    margin: 5px 15px 10px 0px;
+    font-size: 16px;
+    outline: none;
+    
+}
+select{
+    font-size: 14px;
+    margin: 5px 15px 10px 0px;
+}
+input, select{
+    padding: 10px;
+}
+.contenedor-btn{
+width: 100%;
+display: flex;
+justify-content:center;
+}
+.boton1, .boton2{
+    margin:10px;
+    padding: 10px;
+    border: 0px;
+    color: white;
+    width: 15%;
+    font-size: 18px;
+    background-color: rgb(134, 134, 240);
+    cursor: pointer;
+}
+.boton1 , .boton2:hover{
+    background-color: rgb(2, 2, 92);
+    flood-color: white;
+}

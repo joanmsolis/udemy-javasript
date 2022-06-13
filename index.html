@@ -4,11 +4,75 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css">
         <title>Document</title>
     </head>
     <body>
-        <h1>cursos de javascript</h1>
-      <script src="js/alert.js"></script>  
-      <script src="js/app.js"></script>  
+      <h1>Datos Personales</h1>
+      <div class="container">
+        <form action="" id="formulario" name="formulario" >
+        <div class="contenedor-campos"> 
+          <div>
+            <label>Nombre</label>
+            <br>
+            <input type="text" name="nombre" id="nombre" placeholder="nombre" maxlength="10" minlength="4">
+          </div>
+         <div>
+          <label>Apellido</label>
+          <br>
+          <input type="text" name="apellido" placeholder="apellido" maxlength="10" minlength="3">
+         </div>
+         <div>
+          <label>Cedula</label>
+          <br>
+          <input type="text" name="cedula" placeholder="Cedula" maxlength="11">
+         </div>
+         <div>
+          <label>Direccion</label>
+          <br>
+          <input type="text" name="direccion" placeholder="Direccion" maxlength="20">
+         </div>
+         <div>
+          <label>Provincia</label>
+          <br>
+        <select name="Provincia" id="Provincia">
+          <option value="DISTRITO NACIONAL">DISTRITO NACIONAL</option>
+          <option value="">SAN PEDRO</option>
+          <option value="">EL SEIBO</option>
+          <option value="">LA ROMANA</option>
+          <option value="">IGUEI</option>
+          <option value="">HATO MAYOR</option>
+          <option value="BABARO">BABARO</option>
+          <option value="SANTO DOMINGO NORTE">SANTO DOMINGO NORTE</option>
+          <option value="">SANTO DOMINGO ESTE</option>
+          <option value="">SANTO DOMINGO OESTE</option>
+          <option value="">SANCRISTOBAL</option>
+          <option value="">HAINA</option>
+          <option value="">BANI</option>
+          <option value="OCOA">OCOA</option>
+          <option value="AZUA">AZUA</option>
+          <option value="NEIBA">NEIBA</option>
+          <option value="">BARAHONA </option>
+          <option value="SAN JUAN">SAN JUAN</option>
+
+        </select>
+         </div>
+         <div>
+          <label>Telefono</label>
+          <br>
+          <input type="text" name="telefono" placeholder="telefono" maxlength="12">
+         </div>
+      
+      
+        </div>
+          <div class="contenedor-btn">
+            <input type="submit" class="boton1" id = "LinkID" onclick="document.getElementById('FormId').submit();"  class="btn btn-primary" value="enviar">
+            <input type="submit" class="boton2" value="borrar">
+          </div>
+        </form>
+        </div>
+        <script src="js/form.js"></script>
+      <!-- <script src="js/alert.js"></script>  
+      <script src="js/app.js"></script>   -->
     </body>
     </html>
