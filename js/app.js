@@ -7,16 +7,19 @@
 // console.warn(x);
 // console.error(z);
 // console.table({a, b, c, x, z});
-let articuloForm =['perro','gato','leon'];
+let datosPersonales;
+function agregaMascota(){
+   datosPersonales = document.getElementById("campoMascota").value;
+   alert('tiene que escribir tu no nombre');
+  return;
+   
+  
+}
 
-document.getElementById('agregar').addEventListener('submit',function(){
-    
-})
- let articuloForm1 = articuloForm.push(document.getElementById('articuloForm').value);
- articuloForm.forEach((elemento,indice,array) => {
-    console.log(elemento,indice,array)
-    
- })
+
+ 
+
+
 
 
 
