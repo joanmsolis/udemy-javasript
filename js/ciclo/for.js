@@ -18,3 +18,16 @@ console.warn('for of')
 for(let heroe of heroes){
     console.log(heroe);
 }
+console.warn("for con objetos");
+
+const matricula = {
+    nombre: 'joan',
+    apellido: 'solis',
+    cedula: '001-212222-5',
+    tel: '809-221-9896',
+    direcion: 'zona colonial'
+
+}
+ for(let metricul in matricula){
+    console.log( matricula[metricul]);
+ }
