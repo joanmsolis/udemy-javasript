@@ -27,3 +27,7 @@ horaDeApertura =([0,6].includes(dia)) ? 9 : 11;
 mensaje = ([horaActual >= horaDeApertura]) ? 'esta abierto ' :  `todavia esta cerrado hoy habrimos a las: ${horaDeApertura}`; 
 
 console.log(horaDeApertura, mensaje);
+
+let sumatoria = 25;
+sumatoria=(sumatoria >= 21)?'cunatos a;os tiene? '+sumatoria+' el pana es mayor dejalo entra' :'cunatos a;os tiene? '+sumatoria+' pana dale patras tu eres menor de edad';
+console.log(sumatoria);
