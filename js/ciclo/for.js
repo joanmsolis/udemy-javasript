@@ -31,3 +31,5 @@ const matricula = {
  for(let metricul in matricula){
     console.log( matricula[metricul]);
  }
+
+ 
