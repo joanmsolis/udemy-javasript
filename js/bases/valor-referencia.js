@@ -5,12 +5,13 @@ a = 30;
 console.log({a,b});
 
 let juan = {nombre:'juan'}
+// operador express
 let ana = {...juan};
 ana.nombre = 'ana'
 
 console.log({ana,juan});
 
-
+//parametro rest
 const cambiaNombre =({...persona})=>{
     persona.nombre ='tonny';
     return persona;

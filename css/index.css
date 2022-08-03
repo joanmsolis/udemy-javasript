@@ -6,16 +6,24 @@ html, body{
 
 .titulo{
     text-align: center;
-    background-color: black;
-    color: white;
-    padding: 20px;
-    font-size: 25px;
+    background-color:rgb(1, 37, 1);
+    color:rgb(195, 188, 188);
+    padding: 10px;
+    font-size: 35px;
+}
+h1{
+    margin-left: 40px;
+    padding: 10px 10px 0px 10px;   
 }
 .cartas{
     position: relative;
     width: 150px;
     left: 100px;
     margin-left: -75px;
+}
+
+.jugador-titulo{
+    color: rgb(180, 176, 176);
 }
 #jugador-cartas,#computadora-cartas{
     height: 220px;
